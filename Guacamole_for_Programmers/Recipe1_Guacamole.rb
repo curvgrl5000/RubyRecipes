@@ -1,5 +1,5 @@
 class Recipe 
-  attr_accessor :name, :steps, :ingrediants
+  attr_accessor :name, :steps, :ingredients
  
   def initialize(name, *ingredients)
     @ingredients = ingredients
@@ -31,7 +31,7 @@ class Recipe
 end
 
 
-guacamole = Recipe.new("Gucamole for Programmers", "2 Avacados", "Cilantro", "1 Shallot", "2 Cloves of Garlic", "Diced Tomatoes", "Diced Jalapeno", "1 Lime")
+guacamole = Recipe.new("Gucamole for Programmers", "2 Avacados", "Cilantro", "1 Shallot", "2 Cloves of Garlic", "Diced Tomatoes", "Diced Jalapeno", "1 Lime")
 puts guacamole.steps #=> []
 guacamole.steps[0] = "Peel and Dice the Shallot and Garlic Cloves."
 guacamole.steps[1] = "Combine with Diced Avocado."
