@@ -1,7 +1,6 @@
-Recipes in Ruby
+A Collection of Flyers Created for the LA Womens Ruby Study Group
 
-I'm cooking up some simple recipes that build a repository of nice little code samples.
-Planning on making each new recipe into a fabulous poster! As part of the LA Women's Group
-wanna share the love of the kitchen ( LOVE TO COOK, FYI ) into the command line and beyond.
+We've been putting on these events now for nearly a year and each month
+we create posters and recipes. Here's a taste of what we did and where.
 
 Enjoy!
